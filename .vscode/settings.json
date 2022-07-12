@@ -11,4 +11,5 @@
     "source.fixAll.eslint": true
   },
   "eslint.validate": ["javascript"],
+  "eslint.workingDirectories": ["./", "./stitchy"]
 }
