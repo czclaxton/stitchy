@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+stitchy/node_modules
+
 # testing
 /coverage
 
