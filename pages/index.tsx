@@ -59,7 +59,10 @@ const Home = ({ posts }: Props) => {
                 <div>
                   <p className='text-lg font-bold'>{post.title}</p>
                   <p className='text-xs'>
-                    {post.description} by {post.author.name}
+                    <span className='font-light'>{post.description} by</span>{' '}
+                    <span className='text-green-500 font-medium'>
+                      {post.author.name}
+                    </span>
                   </p>
                 </div>
 
